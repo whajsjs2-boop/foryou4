@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR YOU - Premium Home Care</title>
+    <meta name="description" content="프리미엄 홈케어 서비스, 포유 출장마사지">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Side Dot Navigation -->
+    <nav class="side-nav">
+        <a href="#hero" class="nav-dot active" data-section="hero">
+            <span class="dot-label">Home</span>
+        </a>
+        <a href="#about" class="nav-dot" data-section="about">
+            <span class="dot-label">About</span>
+        </a>
+        <a href="#pricing" class="nav-dot" data-section="pricing">
+            <span class="dot-label">Pricing</span>
+        </a>
+        <a href="#gallery" class="nav-dot" data-section="gallery">
+            <span class="dot-label">Gallery</span>
+        </a>
+        <a href="#contact" class="nav-dot" data-section="contact">
+            <span class="dot-label">Contact</span>
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">PREMIUM HOME CARE</span>
+            <h1 class="hero-title">
+                <span class="title-line">Urban</span>
+                <span class="title-line gold-text">Sanctuary</span>
+                <span class="title-line">At Home.</span>
+            </h1>
+            <p class="hero-desc">
+                당신의 공간이 가장 완벽한 휴식처가 됩니다.<br>
+                24시간, 30분 내 방문하는 프리미엄 케어 서비스.
+            </p>
+
+            <!-- Stats Bar (inline, centered) -->
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-star"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-value">4.9</span>
+                        <span class="stat-label">Rating</span>
+                    </div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-value">30분</span>
+                        <span class="stat-label">도착시간</span>
+                    </div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-shield-halved"></i></div>
+                    <div class="stat-content">
+                        <span class="stat-value">100%</span>
+                        <span class="stat-label">후불제</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#pricing" class="btn btn-primary">코스 확인하기</a>
+                <a href="#about" class="btn btn-outline">더 알아보기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">WHY CHOOSE US</span>
+                <h2 class="section-title">특별함에는<br><span class="gold-text">이유가 있습니다.</span></h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3 class="feature-title">Verified Experts</h3>
+                    <p class="feature-desc">엄격한 기준을 통과한 20-30대 한국인 전문 테라피스트가 방문합니다.</p>
+                    <div class="feature-number">01</div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="feature-title">Fast Arrival</h3>
+                    <p class="feature-desc">서울/경기/천안 전지역 30분 내 도착. 기다림 없는 힐링을 약속합니다.</p>
+                    <div class="feature-number">02</div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3 class="feature-title">Pay Later</h3>
+                    <p class="feature-desc">100% 후불제 시스템. 관리사 도착 후 안심하고 결제하세요.</p>
+                    <div class="feature-number">03</div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3 class="feature-title">VIP Service</h3>
+                    <p class="feature-desc">단골 고객님을 위한 특별한 혜택과 맞춤형 케어를 제공합니다.</p>
+                    <div class="feature-number">04</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing-section">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">PREMIUM COURSES</span>
+                <h2 class="section-title">나를 위한 <span class="gold-text">특별한 시간</span></h2>
+            </div>
+
+            <!-- Course Tabs -->
+            <div class="tabs-container">
+                <button class="tab-btn active" data-tab="thai">Thai</button>
+                <button class="tab-btn" data-tab="aroma">Aroma</button>
+                <button class="tab-btn" data-tab="healing">Healing</button>
+                <button class="tab-btn" data-tab="vip">VIP</button>
+            </div>
+
+            <!-- Course Content -->
+            <div class="courses-wrapper">
+                <!-- Thai -->
+                <div class="course-list active" id="thai">
+                    <div class="course-item">
+                        <div class="course-info">
+                            <h4 class="course-name">Basic Thai Care</h4>
+                            <p class="course-duration">건식 테라피 60분</p>
+                        </div>
+                        <span class="course-price">70,000₩</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <h4 class="course-name">Standard Thai Care</h4>
+                            <p class="course-duration">건식 테라피 90분</p>
+                        </div>
+                        <span class="course-price">90,000₩</span>
+                    </div>
+                    <div class="course-item featured">
+                        <div class="course-badge">BEST</div>
+                        <div class="course-info">
+                            <h4 class="course-name">Premium Thai Care</h4>
+                            <p class="course-duration">건식 테라피 120분</p>
+                        </div>
+                        <span class="course-price">110,000₩</span>
+                    </div>
+                </div>
+
+                <!-- Aroma -->
+                <div class="course-list" id="aroma">
+                    <div class="course-item">
+                        <div class="course-info">
+                            <h4 class="course-name">Basic Aroma Care</h4>
+                            <p class="course-duration">아로마 오일 60분</p>
+                        </div>
+                        <span class="course-price">80,000₩</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <h4 class="course-name">Standard Aroma Care</h4>
+                            <p class="course-duration">아로마 오일 90분</p>
+                        </div>
+                        <span class="course-price">100,000₩</span>
+                    </div>
+                    <div class="course-item featured">
+                        <div class="course-badge">BEST</div>
+                        <div class="course-info">
+                            <h4 class="course-name">Premium Aroma Care</h4>
+                            <p class="course-duration">아로마 오일 120분</p>
+                        </div>
+                        <span class="course-price">120,000₩</span>
+                    </div>
+                </div>
+
+                <!-- Healing -->
+                <div class="course-list" id="healing">
+                    <div class="course-item">
+                        <div class="course-info">
+                            <h4 class="course-name">Deep Tissue</h4>
+                            <p class="course-duration">근육 집중 케어 70분</p>
+                        </div>
+                        <span class="course-price">90,000₩</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <h4 class="course-name">Full Body Healing</h4>
+                            <p class="course-duration">전신 힐링 100분</p>
+                        </div>
+                        <span class="course-price">120,000₩</span>
+                    </div>
+                    <div class="course-item featured">
+                        <div class="course-badge">BEST</div>
+                        <div class="course-info">
+                            <h4 class="course-name">Ultimate Healing</h4>
+                            <p class="course-duration">스페셜 힐링 130분</p>
+                        </div>
+                        <span class="course-price">150,000₩</span>
+                    </div>
+                </div>
+
+                <!-- VIP -->
+                <div class="course-list" id="vip">
+                    <div class="course-item">
+                        <div class="course-info">
+                            <h4 class="course-name">VIP Gold</h4>
+                            <p class="course-duration">프리미엄 90분</p>
+                        </div>
+                        <span class="course-price">150,000₩</span>
+                    </div>
+                    <div class="course-item">
+                        <div class="course-info">
+                            <h4 class="course-name">VIP Platinum</h4>
+                            <p class="course-duration">프리미엄 120분</p>
+                        </div>
+                        <span class="course-price">180,000₩</span>
+                    </div>
+                    <div class="course-item featured">
+                        <div class="course-badge">BEST</div>
+                        <div class="course-info">
+                            <h4 class="course-name">VIP Diamond</h4>
+                            <p class="course-duration">최상의 케어 150분</p>
+                        </div>
+                        <span class="course-price">220,000₩</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="section-header center" style="padding: 0 24px;">
+            <span class="section-label">OUR ATMOSPHERE</span>
+            <h2 class="section-title">프리미엄 <span class="gold-text">갤러리</span></h2>
+        </div>
+
+        <div class="gallery-scroll">
+            <div class="gallery-item">
+                <img src="img/1.jpg" alt="Professional Care">
+                <div class="gallery-overlay">
+                    <span class="gallery-tag">Premium Care</span>
+                    <h3 class="gallery-title">Professional</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/2.jpg" alt="Relaxation">
+                <div class="gallery-overlay">
+                    <span class="gallery-tag">Healing Time</span>
+                    <h3 class="gallery-title">Relaxation</h3>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/3.jpg" alt="Satisfaction">
+                <div class="gallery-overlay">
+                    <span class="gallery-tag">Best Service</span>
+                    <h3 class="gallery-title">Satisfaction</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="contact-bg-pattern"></div>
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <span class="section-label">RESERVE NOW</span>
+                    <h2 class="contact-title">Ready to<br><span class="gold-text">Relax?</span></h2>
+                    <p class="contact-desc">지금 바로 예약하고 특별한 휴식을 경험하세요.</p>
+
+                    <div class="contact-info">
+                        <p class="contact-id"><i class="fas fa-comment-dots"></i> 카톡 / 라인 ID : TTOR13</p>
+                    </div>
+                </div>
+
+                <div class="contact-buttons">
+                    <a href="tel:0502-1917-1918" class="contact-btn phone">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>0502-1917-1918</span>
+                    </a>
+                    <a href="https://line.me/ti/p/gUgf7LP2hw" target="_blank" class="contact-btn line">
+                        <i class="fab fa-line"></i>
+                        <span>Line 상담하기</span>
+                    </a>
+                    <a href="http://qr.kakao.com/talk/3RmRgNlLCmGhCYKW.hct3urGapg-" target="_blank"
+                        class="contact-btn kakao">
+                        <i class="fas fa-comment"></i>
+                        <span>카카오톡 상담</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">FOR YOU</div>
+            <p class="footer-copy">&copy; 2025 For You Massage. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <div class="fab-container">
+        <button class="fab-main" id="fab-toggle">
+            <i class="fas fa-plus"></i>
+        </button>
+        <div class="fab-menu" id="fab-menu">
+            <a href="tel:0502-1917-1918" class="fab-item">
+                <span class="fab-label">전화걸기</span>
+                <div class="fab-icon phone"><i class="fas fa-phone"></i></div>
+            </a>
+            <a href="https://line.me/ti/p/gUgf7LP2hw" target="_blank" class="fab-item">
+                <span class="fab-label">라인상담</span>
+                <div class="fab-icon line"><i class="fab fa-line"></i></div>
+            </a>
+            <a href="http://qr.kakao.com/talk/3RmRgNlLCmGhCYKW.hct3urGapg-" target="_blank" class="fab-item">
+                <span class="fab-label">카톡문의</span>
+                <div class="fab-icon kakao"><i class="fas fa-comment"></i></div>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
